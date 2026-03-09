@@ -15,5 +15,8 @@ plt.title('L_zernike Loss Trend During Training', fontsize=14, fontweight='bold'
 plt.grid(True, alpha=0.3)
 plt.xticks(epochs)  # 显示所有 epoch
 plt.tight_layout()
+plt.axis
+plt.axis([0, 13, 0, 170])
 plt.show(block=False)  # 非阻塞显示，不影响后续操作
 plt.show()  # 最后阻塞，保留图形
+
